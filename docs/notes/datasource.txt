@@ -1,0 +1,16 @@
+1.配置扫描包,加载mapper代理对象
+  mybatis:http://mybatis.org/spring/zh/index.html
+  配置方式:
+  a.@MapperScan 在启动类加上扫描器 扫描具体的包
+  b.在 mapper 文件上添加 @Mapper注解
+  c.org.mybatis.spring.mapper.MapperScannerConfigurer 写一个@Configuration Bean扫描所有的mapper即可
+  d.mybatis-config：https://www.cnblogs.com/wuzhenzhao/p/11092526.html
+2.druid
+  https://www.jianshu.com/p/fdf1c2ddf201
+  配置数据源，动态管理数据连接。
+  不显示datasource 配置：https://www.cnblogs.com/JealousGirl/p/springboot_druid.html
+3.springBoot demo
+  https://github.com/dkbnull/SpringBootDemo
+  https://blog.csdn.net/dkbnull/article/details/87278817
+4.配置日志
+  springBoot项目 配置日志打印输出、

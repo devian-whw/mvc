@@ -24,9 +24,9 @@ public class DaoUnitTest {
     @Test
     public void testInsert() {
         UserDO userDO = new UserDO();
-        userDO.setAge(25);
-        userDO.setPassword("test1234");
-        userDO.setUsername("test");
+        userDO.setAge(26);
+        userDO.setPassword("test12345");
+        userDO.setUsername("test1");
         int res = userDOMapper.insertSelective(userDO);
         System.out.println(res);
     }
